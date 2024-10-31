@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cleanser - Skincare Expert</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    html, body {
+      height: 100%; /* Menjamin body mengisi seluruh tinggi layar */
+      display: flex;
+      flex-direction: column; /* Mengatur elemen anak dalam kolom */
+    }
+    main {
+      flex: 1; /* Membuat main mengisi ruang yang tersisa */
+    }
+    footer {
+      /* Pastikan footer tidak menempel pada elemen lain */
+      margin-top: auto; /* Memaksa footer berada di bawah */
+    }
+  </style>
+</head>
+<body style="background-color: antiquewhite;">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Skincare Expert</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="category.html">Categories</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="skin-types.html">Skin Types</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main content -->
+  <main class="container my-5">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="img/cleanser_500.jpg" alt="Cleanser Image" class="img-fluid rounded">
+      </div>
+      <div class="col-md-6">
+        <h2 class="mb-4">Cleanser</h2>
+        <p><strong>Description:</strong> A cleanser is a skincare product designed to remove dirt, oil, and makeup from the skin. Cleansing is an essential step in any skincare routine, as it helps to clear the skin of impurities, allowing it to breathe and prepare for subsequent treatments.</p>
+        <p><strong>Benefits of Proper Cleansing:</strong></p>
+        <ul>
+          <li>Removes excess oil and impurities, preventing clogged pores.</li>
+          <li>Helps to maintain a clear and balanced complexion.</li>
+          <li>Prepares the skin for better absorption of skincare products.</li>
+          <li>Promotes a fresh and rejuvenated appearance.</li>
+        </ul>
+  
+        <!-- Product Link Button -->
+        <a href="https://www.tokopedia.com/cetaphil/cetaphil-gentle-skin-cleanser-59ml-sabun-pembersih-muka-untuk-skin-care-cocok-untuk-segala-jenis-kulit" target="_blank" class="btn btn-primary my-3">Shop Cleanser</a>
+  
+        <!-- Back Button -->
+        <a href="category.html" class="btn btn-secondary">Go Back</a>
+      </div>
+    </div>
+  </main>
+  
+
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    &copy; 2024 Skincare Expert | Designed with care for your skin
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oily Skin - Skincare Expert</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    html, body {
+      height: 100%; /* Menjamin body mengisi seluruh tinggi layar */
+      display: flex;
+      flex-direction: column; /* Mengatur elemen anak dalam kolom */
+    }
+    main {
+      flex: 1; /* Membuat main mengisi ruang yang tersisa */
+    }
+    footer {
+      /* Pastikan footer tidak menempel pada elemen lain */
+      margin-top: auto; /* Memaksa footer berada di bawah */
+    }
+  </style>
+</head>
+<body style="background-color: antiquewhite;">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Skincare Expert</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="category.html">Categories</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="skin-types.html">Skin Types</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main content -->
+  <!-- Main content for Oily Skin -->
+  <main class="container my-5">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="img/Oilyyy500.jpg" alt="Oily Skin Image" class="img-fluid rounded">
+      </div>
+      <div class="col-md-6">
+        <h2 class="mb-4">Oily Skin</h2>
+        <p><strong>Description:</strong> Oily skin is caused by an overproduction of sebum, the natural oil our skin produces. While sebum helps keep skin hydrated and protected, an excess can lead to a shiny or greasy appearance, especially on the forehead, nose, and chin. Individuals with oily skin often experience issues like acne, blackheads, and visibly enlarged pores. This skin type may be challenging to manage, but with the right skincare routine, it can look healthy and balanced.</p>
+        <p><strong>Benefits of Proper Care:</strong></p>
+        <ul>
+          <li>Controls excess oil, helping skin appear less shiny and more matte.</li>
+          <li>Minimizes the appearance of enlarged pores, giving the skin a smoother texture.</li>
+          <li>Prevents breakouts and reduces the risk of acne by keeping pores clear.</li>
+          <li>Improves overall skin tone and texture for a healthier, fresher look.</li>
+        </ul>
+
+        <!-- Product Link Button -->
+        <a href="https://www.tokopedia.com/cetaphil" target="_blank" class="btn btn-primary my-3">Shop Related Products</a>
+
+        <!-- Back Button -->
+        <a href="skin-types.html" class="btn btn-secondary">Go Back</a>
+      </div>
+    </div>
+  </main>
+
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    &copy; 2024 Skincare Expert | Designed with care for your skin
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
